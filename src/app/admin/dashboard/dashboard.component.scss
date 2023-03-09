@@ -1,0 +1,48 @@
+.dashboard-section {
+    .card {
+        padding: 20px 15px;
+        border: none;
+        margin-bottom: 20px;      
+        border-radius: 17px;
+        .card_data {
+            h4 {
+                margin-bottom: 20px;
+                color: #fff;
+                font-size: 23px;
+            }
+            .card_count {
+                text-align: end;
+                padding: 0px 15px;
+                h5 {
+                    font-size: 30px;
+                    color: #fff;
+                }
+            }
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .vehicle_details {
+        background: #4bb19a;
+        height: 125px;        
+    }
+
+    .charge_details {
+        background-color: #ea8859;
+        height: 125px;
+    }
+
+    .c1 {
+        background-color: #9e4ee1;
+    }
+
+    .c2 {
+        background-color: #3297e4;
+    }
+
+    .c3 {
+        background-color: #67be7e;
+    }
+}
