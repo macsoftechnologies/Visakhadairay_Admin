@@ -7,13 +7,17 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ThemeModule } from "../@theme/theme.module";
 import { NbButtonModule, NbCardModule, NbInputModule, NbMenuModule, NbSelectModule } from '@nebular/theme';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BccComponent } from './bcc/bcc.component';
+import { HeadquatersComponent } from './headquaters/headquaters.component';
 
 
 
 @NgModule({
     declarations: [
         AdminComponent,
-        DashboardComponent
+        DashboardComponent,
+        BccComponent,
+        HeadquatersComponent
     ],
     imports: [
         CommonModule,

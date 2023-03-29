@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminComponent } from './admin.component';
+import { BccComponent } from './bcc/bcc.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeadquatersComponent } from './headquaters/headquaters.component';
 
 const routes: Routes = [
   {
@@ -13,6 +15,14 @@ const routes: Routes = [
         path: 'Dashboard',
         component: DashboardComponent
       },
+      {
+        path: 'Bcc',
+        component: BccComponent
+      },
+      {
+        path: 'Headquaters',
+        component: HeadquatersComponent
+      }
       // {
       //   path: 'ServiceProviders',
       //   component: ServiceprovidersComponent

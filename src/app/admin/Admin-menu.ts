@@ -8,19 +8,19 @@ export const ADMIN_MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
 
-//   {
-//     title: 'Service Providers',
-//     icon: 'car-outline',
-//     link: 'ServiceProviders',
-//     home: true,
-//   },
+  {
+    title: 'Bcc',
+    icon: 'car-outline',
+    link: 'Bcc',
+    home: true,
+  },
 
-//   {
-//     title: 'Vendors',
-//     icon: 'battery-outline',
-//     link: 'Vendors',
-//     home: true,
-//   },
+  {
+    title: 'Head Quaters',
+    icon: 'battery-outline',
+    link: 'Headquaters',
+    home: true,
+  },
 //     {
 //     title: 'User List',
 //     icon: 'battery-outline',
